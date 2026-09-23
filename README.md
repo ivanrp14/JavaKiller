@@ -1,29 +1,29 @@
 # JavaKiller
 
-Equipo de robots para **Robocode**. Los robots comparten una base y se reparten en dos grupos: JavaKillers y PredatorTeam.
+A team of robots for **Robocode**. The robots share a base class and are split into two groups: JavaKillers and PredatorTeam.
 
-## Qué hay
+## What's here
 
-| Clase | Papel |
+| Class | Role |
 | --- | --- |
-| `javaKillersBase` | Base abstracta que extiende `TeamRobot` |
-| `javaKillersDroids` | Droides del equipo |
-| `javaKillersLeader` | Líder del equipo |
-| `PredatorTeam` | Robot del equipo Predator |
-| `Enemy` | Datos de un enemigo |
-| `Vector2` | Vector 2D de apoyo |
+| `javaKillersBase` | Abstract base that extends `TeamRobot` |
+| `javaKillersDroids` | Team droids |
+| `javaKillersLeader` | Team leader |
+| `PredatorTeam` | Predator team robot |
+| `Enemy` | Enemy data |
+| `Vector2` | Helper 2D vector |
 
 ## Stack
 
 - Java
 - [Robocode](https://robocode.sourceforge.io/) (`robocode.TeamRobot`)
-- Proyecto NetBeans (`build.xml`, `nbproject`)
+- NetBeans project (`build.xml`, `nbproject`)
 
-## Cómo probarlo
+## How to try it
 
-1. Instala Robocode.
-2. Compila el proyecto en NetBeans, o compila `src` con `robocode.jar` en el classpath.
-3. Copia las clases generadas a la carpeta de robots de Robocode.
-4. Arranca una batalla e incluye los robots del paquete `JavaKillers`.
+1. Install Robocode.
+2. Build the project in NetBeans, or compile `src` with `robocode.jar` on the classpath.
+3. Copy the generated classes into Robocode's robots folder.
+4. Start a battle and add the robots from the `JavaKillers` package.
 
-`javaKillersBase` no se instancia sola: es la clase común del equipo.
+`javaKillersBase` is not meant to be instantiated on its own: it is the shared team class.
